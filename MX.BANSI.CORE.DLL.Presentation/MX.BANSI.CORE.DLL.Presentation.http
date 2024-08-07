@@ -1,0 +1,6 @@
+@MX.BANSI.CORE.DLL.Presentation_HostAddress = http://localhost:5248
+
+GET {{MX.BANSI.CORE.DLL.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

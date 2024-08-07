@@ -1,0 +1,174 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio Specific Files
+.vs/
+*.user
+*.suo
+
+# Rider specific folders
+.idea/
+*.iml
+
+# Visual Studio Code specific files
+.vscode/
+
+# Log, NuGet, and Backup Files
+*.log
+*.nupkg
+*.snupkg
+*.swp
+*~
+*.bak
+*.tmp
+
+# NuGet Packages
+packages/
+*.nupkg
+# Uncomment if using NuGet Package Restore
+# .nuget/
+
+# NPM Packages
+node_modules/
+
+# Assembly and Code Analysis
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.pyd
+*.ipdb
+*.aps
+*.aps.xml
+*.sbr
+*.tlog
+*.lastbuildstate
+*.appx
+*.appxsym
+*.pubxml
+*.publishproj
+*.nupkg
+*.snupkg
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Entity Framework
+Migrations/
+
+# JetBrains Rider & Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test Results
+[Tt]est[Rr]esult*
+*.trx
+*.coverage
+.coverage*
+
+# Azure Pipelines
+artifacts/
+
+# Windows-specific
+[Tt]humbs.db
+*.DS_Store
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# MacOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux-specific
+*~
+
+# Project-specific and User-specific Files
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+*.scm
+
+# Temporary Files
+*.class
+*.pyc
+*.pyo
+*.node
+*.py[co]
+.cache/
+*.obj
+
+# Client-side Code and Generated Files
+dist/
+lib/
+coverage/
+node_modules/
+jspm_packages/
+# Uncomment below if you have TypeScript compilation output to a directory
+# wwwroot/dist/
+
+# Secrets
+secrets.json
+
+# Tools
+.sass-cache/
+*.scssc
+
+# Other Development Files
+*.orleans.config
+*.ide
+
+# IIS
+app.publish/
+# Local history for Visual Studio
+.vs/
+
+# Dotnet tools
+.dotnet_tools/
+.dotnet_toolchain/
+.dotnet_env/
+
+# Rider Unity settings
+/Library/
+/Temp/
+/Obj/
+/Build/
+/DerivedData/
+/ExportedObj/
+/*.csproj.user
+/*.pidb
+/Assets/**/*.pidb
+/Library/Collab/
+/Library/PackageCache/
+/Assets/AssetStoreTools*
+
+# Local user settings
+.vs/
+*.user
+*.suo
+
+# Coverage Results
+*.coverage
+*.coveragejson
+*.coveragexml
+coverage/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Python
+*.py[cod]
+*__pycache__/
+
+# Compiled Python files
+*.pyc

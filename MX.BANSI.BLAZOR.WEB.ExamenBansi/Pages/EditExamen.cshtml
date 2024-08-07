@@ -1,0 +1,97 @@
+﻿@page "{id:int}"
+@model MX.BANSI.BLAZOR.WEB.ExamenBansi.Pages.EditExamenModel
+
+<h2>Edit Examen</h2>
+
+<form method="post" class="examen-form">
+    <div class="form-group">
+        <label asp-for="Examen.Nombre" class="control-label"></label>
+        <input asp-for="Examen.Nombre" class="form-control" />
+        <span asp-validation-for="Examen.Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Examen.Descripcion" class="control-label"></label>
+        <input asp-for="Examen.Descripcion" class="form-control" />
+        <span asp-validation-for="Examen.Descripcion" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    h2 {
+        color: #343a40;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .examen-form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .control-label {
+        font-weight: bold;
+        color: #495057;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: #495057;
+        background-color: #ffffff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+    .text-danger {
+        color: #dc3545;
+        font-size: 0.875rem;
+    }
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-color: #007bff;
+        border: 1px solid #007bff;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+</style>
